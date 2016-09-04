@@ -1,0 +1,14 @@
+[package]
+name = "itertools-num"
+version = "0.1.0"
+authors = ["bluss"]
+
+description = """
+Numerical iterator tools. Extra iterators and iterator methods.
+"""
+
+[dependencies]
+num-traits = "0.1"
+
+[dev-dependencies]
+itertools = "0.4"
