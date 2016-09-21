@@ -1,3 +1,5 @@
+#[macro_use]
+extern crate quickcheck;
 
 quickcheck! {
     fn size_linspace(a: f32, b: f32, n: usize) -> bool {
