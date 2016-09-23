@@ -64,10 +64,15 @@ impl<F> ExactSizeIterator for Linspace<F>
 /// either `f32` or `f64`.
 ///
 /// ```
-/// use itertools::linspace;
+/// extern crate itertools;
+/// extern crate itertools_num;
 ///
+/// use itertools_num::linspace;
+///
+/// # fn main() {
 /// itertools::assert_equal(linspace::<f32>(0., 1., 5),
 ///                         vec![0., 0.25, 0.5, 0.75, 1.0]);
+/// # }
 /// ```
 #[inline]
 pub fn linspace<F>(a: F, b: F, n: usize) -> Linspace<F>
