@@ -3,11 +3,11 @@ name = "itertools-num"
 version = "0.1.0"
 license = "MIT/Apache-2.0"
 repository = "https://github.com/bluss/itertools-num"
-documentation = ""
+documentation = "https://docs.rs/itertools-num/"
 authors = ["bluss"]
 
 description = """
-Numerical iterator tools. Extra iterators and iterator methods.
+Numerical iterator tools. Extra iterators and iterator methods and functions.
 """
 
 [dependencies]
@@ -15,4 +15,4 @@ num-traits = "0.1"
 
 [dev-dependencies]
 itertools = "0.4"
-quickcheck = "*"
+quickcheck = "0.3"
