@@ -6,28 +6,23 @@ Extra iterator adaptors, functions and macros.
 
 Please read the `API documentation here`__
 
-__ https://bluss.github.io/rust-itertools/
+__ https://docs.rs/itertools-num/
 
-|build_status|_ |crates|_
+|crates|_
 
-.. |build_status| image:: https://travis-ci.org/bluss/rust-itertools.svg?branch=master
-.. _build_status: https://travis-ci.org/bluss/rust-itertools
-
-.. |crates| image:: http://meritbadge.herokuapp.com/itertools
-.. _crates: https://crates.io/crates/itertools
+.. |crates| image:: http://meritbadge.herokuapp.com/itertools-num
+.. _crates: https://crates.io/crates/itertools-num
 
 How to use with cargo::
 
     [dependencies]
-    itertools = "0.5"
+    itertools-num = "0.1"
 
 How to use in your crate:
 
 .. code:: rust
 
-    #[macro_use] extern crate itertools;
-
-    use itertools::Itertools;
+    extern crate itertools_num;
 
 How to contribute:
 
@@ -39,7 +34,9 @@ How to contribute:
 Recent Changes
 --------------
 
-- Not yet released
+- 0.1.0
+
+  - Initial release
 
 License
 -------
