@@ -34,6 +34,10 @@ How to contribute:
 Recent Changes
 --------------
 
+- 0.1.1
+
+  - Add ``.cumsum()``.
+
 - 0.1.0
 
   - Initial release
