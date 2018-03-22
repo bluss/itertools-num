@@ -11,8 +11,8 @@ Numerical iterator tools. Extra iterators and iterator methods and functions.
 """
 
 [dependencies]
-num-traits = "0.1"
+num-traits = "0.2.2"
 
 [dev-dependencies]
-itertools = "0.6"
-quickcheck = { version = "0.4", default-features = false }
+itertools = "0.7.7"
+quickcheck = { version = "0.6.2", default-features = false }
