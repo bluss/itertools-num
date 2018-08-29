@@ -16,3 +16,7 @@ num-traits = "0.2.2"
 [dev-dependencies]
 itertools = "0.7.7"
 quickcheck = { version = "0.4", default-features = false }
+
+
+[package.metadata.release]
+no-dev-version = true

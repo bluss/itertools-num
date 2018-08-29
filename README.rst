@@ -34,6 +34,10 @@ How to contribute:
 Recent Changes
 --------------
 
+- 0.1.2
+
+  - Bump dependencies, in particular itertools
+
 - 0.1.1
 
   - Add ``.cumsum()``.
