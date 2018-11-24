@@ -34,6 +34,10 @@ How to contribute:
 Recent Changes
 --------------
 
+- 0.1.3
+
+  - Bump quickcheck dev-dependency by @ignatenkobrain
+
 - 0.1.2
 
   - Bump dependencies, in particular itertools
